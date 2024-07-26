@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Portfollio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">Portfollio</a>
+        <nav class="navbar">
+            <a href="portfolio.html" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Portfollio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi,I'm Ahmed</h1>
+            <h3> <span class="text sec-text">Frontend Devoloper </span></h3> <br>
+            <p style="font-size: 18px;">Motivated and detail- oriented individual with a passion for web development. Completed a comprehensive course in web development, specializing in front-end technologies. Eager to leverage newly acquired skills to contribute as a Front-End Developer.</p>
+        </div> <br><br>
+        <img src="img/Untitled design (1).jpg" alt="" height="600" width="600" style="margin-right: -50px;">
+     
+     
+    </section>
+    <div style="margin-top: -150px;">
+    <button class="btn-3"><a href="img/Ahmad Nasir Resume.jpg" style="text-decoration: none; color:#ededed;">Download CV</a></button>
+</div>
+
+<div class="home-icon" style="margin-left: 120px;">
+    <a href="https://www.tiktok.com/@mian_ahmi1?_t=8ng1i9Ql0tj&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+    <a href="https://www.facebook.com/share/eLvR2tuGBQLTqHcj/?mibextid=qi2Omg"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://wa.link/rwshq7"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/mian_ahmi31?igsh=MXEyNTU1aTBsZ3V0"><i class="fa-brands fa-instagram"></i></a>
+</div>
+      
+
+
+
+
+
+    <script>
+        const text = document.querySelector(".sec-text");
+
+const textload = () => {
+      setTimeout(() => {
+        text.textContent = "Frontend Devoloper"
+}, 0);
+
+
+}
+
+textload();
+
+    setInterval(textload,4000);
+
+
+    </script>
+</body>
+</html>
