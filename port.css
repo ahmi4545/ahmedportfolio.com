@@ -74,8 +74,8 @@ body{
     font-weight:700;
     border-radius: 60px;
     margin-left: 115px;
-    margin-top: -1200px;
-    position: relative;
+   margin-top: -10px;
+    position: absolute;
 }
 
 .btn-3:hover{
@@ -84,6 +84,7 @@ body{
 
 .home-icon {
     width: fit-content;
+    position: absolute;
 }
 
  .home-icon a{
